@@ -3,8 +3,8 @@ import logging
 import json
 from flask import Response, request
 from controllers import film_controller
-from mappers import film_mapper
 from validators import validator
+from util.encoders import ImdbEncoder
 
 logger = logging.getLogger("imdb_logger")
 
@@ -15,12 +15,11 @@ class FilmResource(Resource):
         logger.debug(f'/films GET by id = {film_id} requested')
 
         film = film_controller.get_film_by_id(film_id)
-        if film is None:
+        if not film:
             return "", 404
-        film_dto = film_mapper.get_film(film)
 
         response = Response(
-            response=json.dumps(film_dto),
+            response=json.dumps(film, cls=ImdbEncoder),
             status=200,
             mimetype='application/json'
         )
@@ -30,17 +29,16 @@ class FilmResource(Resource):
 class FilmsResource(Resource):
     def get(self):
         """Returns a list of films based on url params"""
-        validator.validate_content_search(request.args)
-        logger.debug(f'/films GET requested. Url params: {request.args}')
+        args = request.args.to_dict()
+        validator.validate_content(args)
+        logger.debug(f'/films GET requested. Url params: {args}')
 
-        dict_params = json.loads(request.args)
-        films = film_controller.get_films(dict_params)
-        if films is None:
+        films = film_controller.get_films(args)
+        if not films:
             return "", 404
-        films_dto = film_mapper.get_films(films)
 
         response = Response(
-            response=json.dumps(films_dto),
+            response=json.dumps(films, cls=ImdbEncoder),
             status=200,
             mimetype='application/json'
         )

@@ -3,8 +3,8 @@ import logging
 import json
 from flask import Response, request
 from controllers import show_controller
-from mappers import show_mapper
 from validators import validator
+from util.encoders import ImdbEncoder
 
 logger = logging.getLogger("imdb_logger")
 
@@ -15,12 +15,11 @@ class ShowResource(Resource):
         logger.debug(f'/shows GET by id = {show_id} requested')
 
         show = show_controller.get_show_by_id(show_id)
-        if show is None:
+        if not show:
             return "", 404
-        show_dto = show_mapper.get_show(show)
 
         response = Response(
-            response=json.dumps(show_dto),
+            response=json.dumps(show, cls=ImdbEncoder),
             status=200,
             mimetype='application/json'
         )
@@ -30,18 +29,16 @@ class ShowResource(Resource):
 class ShowsResource(Resource):
     def get(self):
         """Returns a list of shows based on url params"""
-        validator.validate_content_search(request.args)
-        logger.debug(f'/shows GET requested. Url params: {request.args}')
+        args = request.args.to_dict()
+        validator.validate_content(args)
+        logger.debug(f'/shows GET requested. Url params: {args}')
 
-        dict_params = json.loads(request.args)
-
-        shows = show_controller.get_shows(dict_params)
-        if shows is None:
+        shows = show_controller.get_shows(args)
+        if not shows:
             return "", 404
-        shows_dto = show_mapper.get_shows(shows)
 
         response = Response(
-            response=json.dumps(shows_dto),
+            response=json.dumps(shows, cls=ImdbEncoder),
             status=200,
             mimetype='application/json'
         )
