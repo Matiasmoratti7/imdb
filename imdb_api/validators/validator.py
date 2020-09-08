@@ -1,48 +1,32 @@
 import json
 from exceptions.errors import CustomError
 from json.decoder import JSONDecodeError
+from cerberus import Validator
+
+# Schemas
+LIST = {'username': {'type': 'string', 'required': True},
+        'name': {'type': 'string', 'required': True}}
+
+CONTENT_SEARCH = {'max': {'type': 'integer', 'min': 1, 'max': 250},
+                  'sort': {'type': 'string', 'allowed': ['rating', 'metascore', 'release_date']},
+                  'filter': {'type': 'string', 'allowed': ['genre', 'release_year', 'country']}}
+
+USER = {'username': {'type': 'string', 'required': True},
+        'password': {'type': 'string', 'required': True},
+        'fullname': {'type': 'string', 'required': True}}
 
 
-def validate_watchlist(request_data):
-    try:
-        data_dict = json.loads(request_data)
-    except JSONDecodeError:
-            raise CustomError("Wrong format: A JSON Payload is mandatory", 400)
-
-    if 'username' not in data_dict:
-        raise CustomError("username parameter missing", 400)
+def validate(data, schema):
+    v = Validator(schema)
+    if not v.validate(data):
+        raise CustomError(v.errors, 400)
 
 
-def validate_list(request_data):
-    try:
-        data_dict = json.loads(request_data)
-    except JSONDecodeError:
-            raise CustomError("Wrong format: A JSON Payload is mandatory", 400)
-
-    if 'username' not in data_dict:
-        raise CustomError("username parameter missing", 400)
-    if 'name' not in data_dict:
-        raise CustomError("name parameter missing", 400)
-
-
-def validate_content_search(request_data):
-    try:
-        data_dict = json.loads(request_data)
-    except JSONDecodeError:
-            raise CustomError("Wrong format: A JSON Payload is mandatory", 400)
-
-    if 'max' in data_dict:
+def validate_content(data):
+    if 'max' in data:
         try:
-            max_films = int(data_dict.get('max'))
+            max = int(data.get('max'))
         except ValueError:
-            raise CustomError("Max parameter must be a number", 400)
-        if max_films > 250:
-            raise CustomError("The max amount of films to be retrieved is 250", 400)
-
-    if 'sort' in data_dict:
-        if data_dict.get('sort') not in ["rating", "metascore", "release_date"]:
-            raise CustomError("Possible values for sorting are: rating, metascore and release_date", 400)
-
-    if 'filter' in data_dict:
-        if data_dict.get('filter') not in ["genre", "release_year", "country"]:
-            raise CustomError("Possible values for sorting are: genre, release_year and country", 400)
+            raise CustomError('Max value must be integer', 400)
+        data['max'] = max
+    validate(data, CONTENT_SEARCH)

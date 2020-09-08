@@ -1,3 +1,6 @@
+from model import watchlist_model
+
+
 def get_watchlist_by_id(watchlist_id):
     pass
 

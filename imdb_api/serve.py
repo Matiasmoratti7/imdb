@@ -1,4 +1,4 @@
-from app import app
+from app import app, create_app
 from config.loader import load_from_file
 from config.logger import configure_logging, get_app_logger
 from exceptions.errors import CustomError
@@ -10,10 +10,11 @@ from resources.film_resources import FilmResource, FilmsResource
 from resources.show_resources import ShowResource, ShowsResource
 from resources.watchlist_resources import WatchlistFilmResource, WatchlistResource, WatchlistShowResource
 from resources.list_resources import ListFilmResource, ListResource, ListShowResource
+from resources.user_resources import RegistrationResource
 
-STAGE = "config/ini/stage.ini"
-PROD = "config/ini/prod.ini"
-TEST = "config/ini/test.ini"
+STAGE = "/ini/stage.ini"
+PROD = "/ini/prod.ini"
+TEST = "/ini/test.ini"
 
 
 def run(standalone=False, config_file=STAGE):
@@ -23,6 +24,8 @@ def run(standalone=False, config_file=STAGE):
     # Configure logger
     logger = configure_logging(cl_args)
     logger.critical("Ready")
+
+    create_app.create(cl_args.db_string)
 
     return flask_app(standalone, cl_args.port, cl_args.protocol)
 
@@ -35,16 +38,17 @@ def flask_app(standalone, port, protocol):
     api = Api(app, errors=CustomError)
 
     # Load resources
-    api.addResource(FilmsResource, '/films')
-    api.addResource(FilmResource, '/films/<int:film_id>')
-    api.addResource(ShowsResource, '/shows')
-    api.addResource(ShowResource, '/shows/<int:show_id>')
-    api.addResource(WatchlistResource, '/watchlists/<int:watchlist_id>', '/watchlists')
-    api.addResource(WatchlistShowResource, '/watchlists/<int:watchlist_id>/shows/<int:show_id>')
-    api.addResource(WatchlistFilmResource, '/watchlists/<int:watchlist_id>/films/<int:film_id>')
-    api.addResource(ListResource, '/lists', '/lists/<int:list_id>')
-    api.addResource(ListShowResource, '/lists/<int:list_id>/shows/<int:show_id>')
-    api.addResource(ListFilmResource, '/lists/<int:list_id>/films/<int:film_id>')
+    api.add_resource(FilmsResource, '/films')
+    api.add_resource(FilmResource, '/films/<int:film_id>')
+    api.add_resource(ShowsResource, '/shows')
+    api.add_resource(ShowResource, '/shows/<int:show_id>')
+    api.add_resource(WatchlistResource, '/watchlists/<int:watchlist_id>', '/watchlists')
+    api.add_resource(WatchlistShowResource, '/watchlists/<int:watchlist_id>/shows/<int:show_id>')
+    api.add_resource(WatchlistFilmResource, '/watchlists/<int:watchlist_id>/films/<int:film_id>')
+    api.add_resource(ListResource, '/lists', '/lists/<int:list_id>')
+    api.add_resource(ListShowResource, '/lists/<int:list_id>/shows/<int:show_id>')
+    api.add_resource(ListFilmResource, '/lists/<int:list_id>/films/<int:film_id>')
+    api.add_resource(RegistrationResource, '/users')
 
     @app.errorhandler(CustomError)
     def handle_custom_error(error):
@@ -64,7 +68,7 @@ def flask_app(standalone, port, protocol):
         raise CustomError(error.description, 400)
 
     # Redirect functions
-    if protocol == "https":
+    """if protocol == "https":
         @app.before_request
         def redirect_to_ssl():
             criteria = [
@@ -77,7 +81,7 @@ def flask_app(standalone, port, protocol):
                     url = request.url.replace('http://', 'https://', 1)
                     code = 302
                     r = redirect(url, code=code)
-                    return r
+                    return r"""
 
     fl_logger.critical("Starting imdb_api")
     fl_logger.critical(f'Imdb api listening at port {port}')

@@ -2,9 +2,10 @@ from flask_restful import Resource
 import logging
 import json
 from flask import Response, request
-from controllers import watchlist_controller
+from controllers import watchlist_controller, film_controller, show_controller
 from mappers import watchlist_mapper
-from validators import validator
+from exceptions.errors import CustomError
+from util.encoders import ImdbEncoder
 
 logger = logging.getLogger("imdb_logger")
 
@@ -15,30 +16,12 @@ class WatchlistResource(Resource):
         logger.debug(f'/watchlists GET by id = {watchlist_id} requested')
 
         watchlist = watchlist_controller.get_watchlist_by_id(watchlist_id)
-        if watchlist is None:
+        if not watchlist:
             return "", 404
-        watchlist_dto = watchlist_mapper.get_watchlist(watchlist)
 
         response = Response(
-            response=json.dumps(watchlist_dto),
+            response=json.dumps(watchlist, cls=ImdbEncoder),
             status=200,
-            mimetype='application/json'
-        )
-        return response
-
-    def post(self):
-        """Create the watchlist for a user"""
-        logger.debug('/watchlists POST requested')
-
-        validator.validate_watchlist(request.data)
-        data_dict = json.loads(request.data)
-        username = data_dict['username']
-
-        watchlist_id = watchlist_controller.create_watchlist(username)
-
-        response = Response(
-            response=json.dumps({"watchlist_id": watchlist_id}),
-            status=201,
             mimetype='application/json'
         )
         return response
@@ -49,9 +32,22 @@ class WatchlistFilmResource(Resource):
         """Add a film to a watchlist"""
         logger.debug(f'/watchlists/{watchlist_id}/films/{film_id} POST requested')
 
-        watchlist_controller.add_film(watchlist_id, film_id)
+        watchlist = watchlist_controller.get_watchlist_by_id(watchlist_id)
+        if not watchlist:
+            raise CustomError(f'Watchlist {watchlist_id} does not exist')
 
-        return "", 200
+        film = film_controller.get_film_by_id(film_id)
+        if not film:
+            raise CustomError(f'Film {film_id} does not exist')
+
+        watchlist_object = watchlist_controller.add_film(watchlist_id, film_id)
+
+        response = Response(
+            response=json.dumps(watchlist_object, cls=ImdbEncoder),
+            status=200,
+            mimetype='application/json'
+        )
+        return response
 
 
 class WatchlistShowResource(Resource):
@@ -59,6 +55,19 @@ class WatchlistShowResource(Resource):
         """Add a film to a watchlist"""
         logger.debug(f'/watchlists/{watchlist_id}/shows/{show_id} POST requested')
 
-        watchlist_controller.add_show(watchlist_id, show_id)
+        watchlist = watchlist_controller.get_watchlist_by_id(watchlist_id)
+        if not watchlist:
+            raise CustomError(f'Watchlist {watchlist_id} does not exist')
 
-        return "", 200
+        show = show_controller.get_show_by_id(show_id)
+        if not show:
+            raise CustomError(f'Show {show_id} does not exist')
+
+        watchlist_object = watchlist_controller.add_show(watchlist_id, show_id)
+
+        response = Response(
+            response=json.dumps(watchlist_object, cls=ImdbEncoder),
+            status=200,
+            mimetype='application/json'
+        )
+        return response
