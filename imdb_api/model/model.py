@@ -1,11 +1,9 @@
 from app import db
+
 """Importing entities before create_all()"""
-from entities.show import Show
-from entities.film import Film
-from entities.watchlist import Watchlist
 from entities.list import List
-from entities.user import User
-from entities.episode import Episode
+from entities.user import User, UserTitle
+from entities.title import Title, Film, Show, Episode
 
 
 def initialize_db(app):

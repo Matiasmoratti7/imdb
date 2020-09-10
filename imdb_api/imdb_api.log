@@ -1,0 +1,914 @@
+2020-08-15 11:26:26,834 - CRITICAL - imdb_logger - Ready
+2020-08-15 11:28:38,905 - CRITICAL - imdb_logger - Ready
+2020-08-15 11:46:26,492 - CRITICAL - imdb_logger - Ready
+2020-08-15 11:47:10,612 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 11:48:07,349 - CRITICAL - imdb_logger - Ready
+2020-08-15 11:48:20,616 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 11:51:39,093 - CRITICAL - imdb_logger - Ready
+2020-08-15 11:51:46,968 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 12:07:54,243 - CRITICAL - imdb_logger - Ready
+2020-08-15 12:08:00,981 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 12:17:19,826 - CRITICAL - imdb_logger - Ready
+2020-08-15 12:17:28,905 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 12:17:55,973 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 12:37:30,657 - CRITICAL - imdb_logger - Ready
+2020-08-15 12:37:38,875 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 12:41:31,862 - CRITICAL - imdb_logger - Ready
+2020-08-15 12:41:41,114 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 12:44:01,047 - CRITICAL - imdb_logger - Ready
+2020-08-15 12:44:04,625 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 12:50:59,435 - CRITICAL - imdb_logger - Ready
+2020-08-15 12:51:06,020 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 12:51:35,667 - CRITICAL - imdb_logger - Ready
+2020-08-15 12:51:42,450 - CRITICAL - imdb_logger - Ready
+2020-08-15 12:51:47,220 - CRITICAL - imdb_logger - Ready
+2020-08-15 12:52:52,961 - CRITICAL - imdb_logger - Ready
+2020-08-15 12:53:31,104 - CRITICAL - imdb_logger - Ready
+2020-08-15 12:53:37,259 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 12:53:55,085 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 12:55:06,248 - CRITICAL - imdb_logger - Ready
+2020-08-15 12:55:14,875 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 12:58:57,162 - CRITICAL - imdb_logger - Ready
+2020-08-15 12:59:03,303 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 12:59:41,856 - CRITICAL - imdb_logger - Ready
+2020-08-15 12:59:46,295 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 13:17:01,445 - CRITICAL - imdb_logger - Ready
+2020-08-15 13:17:06,554 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-15 13:45:01,080 - CRITICAL - imdb_logger - Ready
+2020-08-15 13:46:10,307 - CRITICAL - imdb_logger - Ready
+2020-08-15 13:47:51,990 - CRITICAL - imdb_logger - Ready
+2020-08-15 13:56:38,004 - CRITICAL - imdb_logger - Ready
+2020-08-15 13:59:13,081 - CRITICAL - imdb_logger - Ready
+2020-08-15 13:59:25,719 - DEBUG    - imdb_logger - /films GET requested. Url params: {'max': '5'}
+2020-08-15 14:00:10,087 - DEBUG    - imdb_logger - /films GET requested. Url params: {'max': '300'}
+2020-08-15 14:05:35,401 - CRITICAL - imdb_logger - Ready
+2020-08-15 14:05:51,524 - DEBUG    - imdb_logger - /films GET requested. Url params: {'max': 5}
+2020-08-15 14:06:45,959 - DEBUG    - imdb_logger - /films GET requested. Url params: {'max': 5}
+2020-08-15 14:07:10,773 - DEBUG    - imdb_logger - /films GET requested. Url params: {'max': 5}
+2020-08-15 14:09:55,608 - CRITICAL - imdb_logger - Ready
+2020-08-15 14:10:01,453 - DEBUG    - imdb_logger - /films GET requested. Url params: {'max': 5}
+2020-08-15 14:10:07,479 - DEBUG    - imdb_logger - /films GET requested. Url params: {'max': 5}
+2020-08-15 14:10:19,400 - DEBUG    - imdb_logger - /films GET requested. Url params: {'max': 5}
+2020-08-15 14:12:26,193 - CRITICAL - imdb_logger - Ready
+2020-08-15 14:12:31,371 - DEBUG    - imdb_logger - /films GET requested. Url params: {'max': 5}
+2020-08-15 14:12:43,833 - DEBUG    - imdb_logger - /films GET requested. Url params: {'max': 5}
+2020-08-15 14:18:28,760 - CRITICAL - imdb_logger - Ready
+2020-08-15 14:18:38,115 - DEBUG    - imdb_logger - /films GET requested. Url params: {}
+2020-08-16 12:16:32,009 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-16 12:21:24,894 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-16 12:25:51,453 - CRITICAL - imdb_logger - Ready
+2020-08-16 12:25:59,155 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-16 12:31:04,412 - CRITICAL - imdb_logger - Ready
+2020-08-16 12:31:08,433 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-16 12:40:35,074 - CRITICAL - imdb_logger - Ready
+2020-08-16 12:40:39,932 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-16 12:40:57,396 - DEBUG    - imdb_logger - /films GET by id = 8 requested
+2020-08-16 12:41:16,837 - CRITICAL - imdb_logger - Ready
+2020-08-16 12:41:21,319 - DEBUG    - imdb_logger - /films GET by id = 8 requested
+2020-08-16 12:43:17,281 - CRITICAL - imdb_logger - Ready
+2020-08-16 12:43:40,361 - DEBUG    - imdb_logger - /shows GET by id = 1 requested
+2020-08-16 12:44:04,009 - DEBUG    - imdb_logger - /shows GET by id = 1 requested
+2020-08-16 13:05:00,769 - CRITICAL - imdb_logger - Ready
+2020-08-16 13:24:32,011 - CRITICAL - imdb_logger - Ready
+2020-08-16 13:25:27,851 - CRITICAL - imdb_logger - Ready
+2020-08-16 13:25:31,749 - DEBUG    - imdb_logger - /users POST requested
+2020-08-16 13:28:32,672 - CRITICAL - imdb_logger - Ready
+2020-08-16 13:28:35,895 - DEBUG    - imdb_logger - /users POST requested
+2020-08-16 13:30:15,959 - DEBUG    - imdb_logger - /users POST requested
+2020-08-16 13:52:19,525 - DEBUG    - imdb_logger - /lists POST requested
+2020-08-16 13:52:43,561 - DEBUG    - imdb_logger - /lists POST requested
+2020-08-16 13:53:31,377 - CRITICAL - imdb_logger - Ready
+2020-08-16 13:53:32,965 - DEBUG    - imdb_logger - /lists POST requested
+2020-08-16 13:53:51,875 - DEBUG    - imdb_logger - /lists POST requested
+2020-08-16 13:57:09,153 - CRITICAL - imdb_logger - Ready
+2020-08-16 13:57:11,029 - DEBUG    - imdb_logger - /lists POST requested
+2020-08-16 14:00:50,198 - CRITICAL - imdb_logger - Ready
+2020-08-16 14:00:57,260 - DEBUG    - imdb_logger - /lists POST requested
+2020-08-16 14:02:37,812 - CRITICAL - imdb_logger - Ready
+2020-08-16 14:02:46,010 - DEBUG    - imdb_logger - /lists POST requested
+2020-08-16 14:04:37,606 - CRITICAL - imdb_logger - Ready
+2020-08-16 14:04:43,250 - DEBUG    - imdb_logger - /lists POST requested
+2020-08-16 14:05:23,987 - CRITICAL - imdb_logger - Ready
+2020-08-16 14:05:25,365 - DEBUG    - imdb_logger - /lists POST requested
+2020-08-16 14:10:44,574 - CRITICAL - imdb_logger - Ready
+2020-08-16 14:11:35,277 - CRITICAL - imdb_logger - Ready
+2020-08-16 14:12:31,732 - CRITICAL - imdb_logger - Ready
+2020-08-16 14:13:07,009 - DEBUG    - imdb_logger - /lists POST requested
+2020-08-16 14:17:09,644 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-16 14:18:18,668 - DEBUG    - imdb_logger - /lists/1/films/7 POST requested
+2020-08-17 12:38:23,757 - CRITICAL - imdb_logger - Ready
+2020-08-17 12:41:03,449 - DEBUG    - imdb_logger - /shows GET by id = 1 requested
+2020-08-17 12:41:14,623 - DEBUG    - imdb_logger - /shows GET by id = 1 requested
+2020-08-17 12:41:57,204 - CRITICAL - imdb_logger - Ready
+2020-08-17 12:42:00,932 - DEBUG    - imdb_logger - /shows GET by id = 1 requested
+2020-08-17 12:43:41,605 - DEBUG    - imdb_logger - /shows GET requested. Url params: {}
+2020-08-17 12:44:04,488 - DEBUG    - imdb_logger - /shows GET requested. Url params: {}
+2020-08-17 12:45:48,466 - DEBUG    - imdb_logger - /shows GET requested. Url params: {}
+2020-08-17 12:45:57,851 - CRITICAL - imdb_logger - Ready
+2020-08-17 12:46:04,603 - DEBUG    - imdb_logger - /shows GET requested. Url params: {}
+2020-08-17 12:47:21,834 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 12:48:00,389 - DEBUG    - imdb_logger - /lists/1/films/7 POST requested
+2020-08-17 12:48:05,964 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 12:48:14,295 - DEBUG    - imdb_logger - /lists/1/films/7 POST requested
+2020-08-17 12:52:56,362 - CRITICAL - imdb_logger - Ready
+2020-08-17 12:53:01,899 - DEBUG    - imdb_logger - /lists/1/films/7 POST requested
+2020-08-17 12:54:23,043 - CRITICAL - imdb_logger - Ready
+2020-08-17 12:54:27,069 - DEBUG    - imdb_logger - /lists/1/films/7 POST requested
+2020-08-17 12:55:39,080 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 12:56:06,469 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 12:57:51,312 - DEBUG    - imdb_logger - /films GET requested. Url params: {}
+2020-08-17 12:58:05,240 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-17 13:01:19,001 - DEBUG    - imdb_logger - /lists/1/films/8 DELETE requested
+2020-08-17 13:01:36,418 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 13:01:41,287 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 13:01:43,325 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 13:02:07,717 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 13:02:14,718 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 13:02:57,083 - DEBUG    - imdb_logger - /lists/1/films/8 DELETE requested
+2020-08-17 13:04:48,821 - CRITICAL - imdb_logger - Ready
+2020-08-17 13:04:52,669 - DEBUG    - imdb_logger - /lists/1/films/8 DELETE requested
+2020-08-17 13:15:50,981 - CRITICAL - imdb_logger - Ready
+2020-08-17 13:15:56,471 - DEBUG    - imdb_logger - /lists/1/films/8 DELETE requested
+2020-08-17 13:16:47,704 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-17 13:17:06,788 - DEBUG    - imdb_logger - /lists/1/films/8 DELETE requested
+2020-08-17 13:17:12,846 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-17 13:17:26,425 - DEBUG    - imdb_logger - /lists/1/films/8 DELETE requested
+2020-08-17 13:17:51,601 - DEBUG    - imdb_logger - /shows GET requested. Url params: {}
+2020-08-17 13:18:35,009 - DEBUG    - imdb_logger - /lists/1/films/1 POST requested
+2020-08-17 13:18:44,840 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 13:18:48,588 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 13:18:55,222 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 13:19:42,726 - DEBUG    - imdb_logger - /lists/1/films/1 DELETE requested
+2020-08-17 13:20:15,267 - CRITICAL - imdb_logger - Ready
+2020-08-17 13:20:18,024 - DEBUG    - imdb_logger - /lists/1/films/1 DELETE requested
+2020-08-17 13:20:27,284 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 13:20:31,178 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 13:20:51,665 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 13:21:46,115 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 13:21:54,401 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-17 13:48:56,081 - CRITICAL - imdb_logger - Ready
+2020-08-17 13:48:59,441 - DEBUG    - imdb_logger - /users POST requested
+2020-08-17 13:51:40,159 - CRITICAL - imdb_logger - Ready
+2020-08-19 09:18:52,300 - CRITICAL - imdb_logger - Ready
+2020-08-19 09:18:56,847 - DEBUG    - imdb_logger - users/1/films GET requested
+2020-08-19 09:19:27,742 - DEBUG    - imdb_logger - users/1/films GET requested
+2020-08-19 09:21:55,908 - CRITICAL - imdb_logger - Ready
+2020-08-19 09:22:01,775 - DEBUG    - imdb_logger - users/1/films GET requested
+2020-08-19 09:24:40,843 - CRITICAL - imdb_logger - Ready
+2020-08-19 09:24:47,358 - DEBUG    - imdb_logger - /users/1/films/7 POST requested
+2020-08-19 09:30:04,275 - DEBUG    - imdb_logger - /users/1/films/7 POST requested
+2020-08-19 09:30:29,261 - DEBUG    - imdb_logger - /users/1/films/7 POST requested
+2020-08-19 09:31:18,966 - CRITICAL - imdb_logger - Ready
+2020-08-19 09:31:23,565 - DEBUG    - imdb_logger - /users/1/films/7 POST requested
+2020-08-19 09:32:06,582 - DEBUG    - imdb_logger - /users/1/shows/1 POST requested
+2020-08-19 09:34:17,149 - CRITICAL - imdb_logger - Ready
+2020-08-19 09:34:20,495 - DEBUG    - imdb_logger - users/1 GET requested
+2020-08-19 09:35:18,459 - DEBUG    - imdb_logger - /users/1/films/8 POST requested
+2020-08-19 09:35:46,333 - DEBUG    - imdb_logger - /users/1/films/8 DELETE requested
+2020-08-19 09:37:11,226 - DEBUG    - imdb_logger - users/1 GET requested
+2020-08-19 09:37:20,927 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 09:37:46,896 - DEBUG    - imdb_logger - /lists/1/films/1 POST requested
+2020-08-19 09:37:58,456 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-19 09:38:08,061 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 09:38:19,461 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 09:38:41,969 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 09:38:47,286 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 09:39:32,722 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 09:40:31,706 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 09:46:26,857 - CRITICAL - imdb_logger - Ready
+2020-08-19 09:46:30,846 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 09:48:43,159 - CRITICAL - imdb_logger - Ready
+2020-08-19 09:48:50,329 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 09:50:45,224 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 09:51:52,206 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 09:54:02,521 - CRITICAL - imdb_logger - Ready
+2020-08-19 09:54:07,237 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 09:54:43,171 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 09:56:01,974 - CRITICAL - imdb_logger - Ready
+2020-08-19 09:56:05,677 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 10:07:00,163 - CRITICAL - imdb_logger - Ready
+2020-08-19 10:07:05,561 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 10:12:42,036 - CRITICAL - imdb_logger - Ready
+2020-08-19 10:12:47,954 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 10:14:25,948 - DEBUG    - imdb_logger - users/1 GET requested
+2020-08-19 10:14:38,512 - DEBUG    - imdb_logger - /films GET requested. Url params: {}
+2020-08-19 10:14:49,384 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-19 10:45:32,745 - CRITICAL - imdb_logger - Ready
+2020-08-19 10:45:40,260 - DEBUG    - imdb_logger - users/1/films GET requested
+2020-08-19 10:49:11,076 - CRITICAL - imdb_logger - Ready
+2020-08-19 10:49:15,823 - DEBUG    - imdb_logger - users/1/films GET requested
+2020-08-20 09:30:02,463 - CRITICAL - imdb_logger - Ready
+2020-08-20 09:30:12,635 - DEBUG    - imdb_logger - users/1/films GET requested
+2020-08-20 09:31:01,812 - DEBUG    - imdb_logger - /films GET by id = 7 requested
+2020-08-20 09:34:49,356 - CRITICAL - imdb_logger - Ready
+2020-08-20 09:34:59,411 - DEBUG    - imdb_logger - users/1/films GET requested
+2020-08-20 09:43:38,030 - CRITICAL - imdb_logger - Ready
+2020-08-20 09:44:13,685 - CRITICAL - imdb_logger - Ready
+2020-08-20 09:44:20,195 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-20 09:54:57,535 - DEBUG    - imdb_logger - users/1 GET requested
+2020-08-20 09:55:42,140 - DEBUG    - imdb_logger - /users/1/films/8 POST requested
+2020-08-20 09:55:54,906 - DEBUG    - imdb_logger - /users/1/films/8 DELETE requested
+2020-08-20 09:57:58,279 - CRITICAL - imdb_logger - Ready
+2020-08-20 09:58:36,496 - CRITICAL - imdb_logger - Ready
+2020-08-21 08:14:30,394 - CRITICAL - imdb_logger - Ready
+2020-08-21 08:15:45,469 - CRITICAL - imdb_logger - Ready
+2020-08-21 08:15:56,664 - DEBUG    - imdb_logger - /users POST requested
+2020-08-21 08:18:50,578 - CRITICAL - imdb_logger - Ready
+2020-08-21 08:18:57,587 - DEBUG    - imdb_logger - users/login POST requested
+2020-08-21 08:21:30,051 - CRITICAL - imdb_logger - Ready
+2020-08-21 08:22:29,656 - DEBUG    - imdb_logger - users/login POST requested
+2020-08-21 08:27:27,787 - CRITICAL - imdb_logger - Ready
+2020-08-21 08:27:32,545 - DEBUG    - imdb_logger - users/login POST requested
+2020-08-21 08:29:26,285 - CRITICAL - imdb_logger - Ready
+2020-08-21 08:29:32,413 - DEBUG    - imdb_logger - users/films GET requested
+2020-08-21 08:30:00,587 - DEBUG    - imdb_logger - /users/films/8 POST requested
+2020-08-21 08:30:12,461 - DEBUG    - imdb_logger - /users/films/8 DELETE requested
+2020-08-21 08:30:29,961 - DEBUG    - imdb_logger - /users/films/8 POST requested
+2020-08-21 08:30:36,904 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-21 08:30:41,778 - DEBUG    - imdb_logger - /users/films/1 POST requested
+2020-08-21 09:12:18,543 - CRITICAL - imdb_logger - Ready
+2020-08-21 09:13:13,519 - DEBUG    - imdb_logger - /lists POST requested
+2020-08-21 09:14:12,971 - DEBUG    - imdb_logger - /lists/2/films/8 POST requested
+2020-08-21 09:14:31,304 - DEBUG    - imdb_logger - /lists/2/films/8 POST requested
+2020-08-21 09:15:18,525 - CRITICAL - imdb_logger - Ready
+2020-08-21 09:15:23,393 - DEBUG    - imdb_logger - /lists/2/films/8 POST requested
+2020-08-21 09:15:41,973 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-21 09:16:08,688 - DEBUG    - imdb_logger - /lists/2/films/1 POST requested
+2020-08-22 09:35:52,530 - CRITICAL - imdb_logger - Ready
+2020-08-22 09:36:07,952 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-22 10:19:46,274 - CRITICAL - imdb_logger - Ready
+2020-08-22 10:20:09,934 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-22 10:21:16,732 - CRITICAL - imdb_logger - Ready
+2020-08-22 10:22:21,458 - DEBUG    - imdb_logger - users/login POST requested
+2020-08-22 10:23:08,774 - CRITICAL - imdb_logger - Ready
+2020-08-22 10:24:54,537 - DEBUG    - imdb_logger - /users POST requested
+2020-08-22 10:25:08,383 - DEBUG    - imdb_logger - users/login POST requested
+2020-08-22 10:25:27,698 - DEBUG    - imdb_logger - /users/lists POST requested
+2020-08-22 10:26:52,059 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-22 10:27:13,878 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:27:25,262 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:27:43,741 - CRITICAL - imdb_logger - Ready
+2020-08-22 10:27:47,266 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:29:30,413 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:36:24,170 - CRITICAL - imdb_logger - Ready
+2020-08-22 10:36:32,463 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:37:33,078 - CRITICAL - imdb_logger - Ready
+2020-08-22 10:37:39,945 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:39:08,700 - CRITICAL - imdb_logger - Ready
+2020-08-22 10:39:12,074 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:40:41,441 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:41:23,325 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:41:35,670 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:42:52,107 - CRITICAL - imdb_logger - Ready
+2020-08-22 10:42:59,554 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:43:18,759 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:43:32,531 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:43:38,135 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:43:41,796 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:51:34,194 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:51:41,780 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:51:46,924 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:52:11,903 - CRITICAL - imdb_logger - Ready
+2020-08-22 10:52:15,223 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 10:53:31,859 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 11:04:01,404 - CRITICAL - imdb_logger - Ready
+2020-08-22 11:04:07,688 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 11:04:32,938 - DEBUG    - imdb_logger - /lists/1/films/8 POST requested
+2020-08-22 11:07:24,790 - CRITICAL - imdb_logger - Ready
+2020-08-22 11:20:49,212 - CRITICAL - imdb_logger - Ready
+2020-08-22 11:20:58,204 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-22 11:21:12,253 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-22 11:26:18,385 - CRITICAL - imdb_logger - Ready
+2020-08-22 11:26:22,486 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-22 11:43:12,168 - CRITICAL - imdb_logger - Ready
+2020-08-22 11:43:16,039 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-22 11:43:21,167 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-22 11:43:25,702 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-22 11:44:03,330 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-22 11:44:21,571 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-22 11:44:55,689 - CRITICAL - imdb_logger - Ready
+2020-08-22 11:45:17,576 - CRITICAL - imdb_logger - Ready
+2020-08-22 11:45:20,181 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-22 11:52:31,383 - CRITICAL - imdb_logger - Ready
+2020-08-22 11:52:40,752 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-22 11:52:56,964 - DEBUG    - imdb_logger - /lists GET by id = 1 requested
+2020-08-22 13:03:03,125 - CRITICAL - imdb_logger - Ready
+2020-08-22 13:04:26,013 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-22 13:05:11,085 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-22 13:06:33,499 - CRITICAL - imdb_logger - Ready
+2020-08-22 13:06:45,439 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-22 13:09:28,509 - CRITICAL - imdb_logger - Ready
+2020-08-22 13:09:38,738 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-22 13:12:09,454 - CRITICAL - imdb_logger - Ready
+2020-08-22 13:12:12,149 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-22 13:21:49,113 - CRITICAL - imdb_logger - Ready
+2020-08-22 13:22:03,508 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-22 13:26:54,265 - CRITICAL - imdb_logger - Ready
+2020-08-22 13:27:07,420 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-22 13:28:13,479 - CRITICAL - imdb_logger - Ready
+2020-08-22 13:28:16,370 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-22 13:30:02,176 - CRITICAL - imdb_logger - Ready
+2020-08-22 13:30:05,262 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-22 13:41:53,468 - CRITICAL - imdb_logger - Ready
+2020-08-22 13:42:04,238 - CRITICAL - imdb_logger - Ready
+2020-08-22 13:42:25,884 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-22 13:42:57,380 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-22 13:46:45,863 - CRITICAL - imdb_logger - Ready
+2020-08-22 13:46:49,589 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-22 13:51:09,243 - DEBUG    - imdb_logger - users/films GET requested
+2020-08-22 13:51:26,931 - DEBUG    - imdb_logger - users/films GET requested
+2020-08-22 14:21:12,582 - DEBUG    - imdb_logger - /users/films/7 DELETE requested
+2020-08-22 14:21:31,473 - CRITICAL - imdb_logger - Ready
+2020-08-22 14:22:15,515 - DEBUG    - imdb_logger - /users/films/7 DELETE requested
+2020-08-22 14:25:44,181 - CRITICAL - imdb_logger - Ready
+2020-08-22 14:25:56,750 - DEBUG    - imdb_logger - /users/films/7 DELETE requested
+2020-08-22 14:28:33,038 - CRITICAL - imdb_logger - Ready
+2020-08-22 14:28:38,591 - DEBUG    - imdb_logger - /users/films/7 DELETE requested
+2020-08-22 14:30:21,558 - CRITICAL - imdb_logger - Ready
+2020-08-22 14:30:25,134 - DEBUG    - imdb_logger - /users/films/7 DELETE requested
+2020-08-24 10:12:27,938 - CRITICAL - imdb_logger - Ready
+2020-08-24 10:13:08,839 - DEBUG    - imdb_logger - users/login POST requested
+2020-08-24 10:13:25,669 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-24 10:14:20,066 - CRITICAL - imdb_logger - Ready
+2020-08-24 10:14:23,587 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-24 10:14:57,257 - CRITICAL - imdb_logger - Ready
+2020-08-24 10:15:00,573 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-24 10:26:55,349 - CRITICAL - imdb_logger - Ready
+2020-08-25 09:57:54,313 - CRITICAL - imdb_logger - Ready
+2020-08-25 09:57:58,538 - DEBUG    - imdb_logger - users/login POST requested
+2020-08-25 09:58:26,296 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-25 10:03:20,368 - CRITICAL - imdb_logger - Ready
+2020-08-25 10:03:28,587 - DEBUG    - imdb_logger - /users/films/8 POST requested
+2020-08-25 10:09:20,957 - CRITICAL - imdb_logger - Ready
+2020-08-25 10:11:18,385 - DEBUG    - imdb_logger - /users/films/7 POST requested
+2020-08-25 10:15:09,827 - DEBUG    - imdb_logger - users/films GET requested. Url params: {'criteria': 'watchlist'}
+2020-08-25 10:16:00,942 - DEBUG    - imdb_logger - users/films GET requested. Url params: {'criteria': 'rated'}
+2020-08-25 10:16:08,223 - CRITICAL - imdb_logger - Ready
+2020-08-25 10:16:21,813 - DEBUG    - imdb_logger - users/films GET requested. Url params: {'criteria': 'rated'}
+2020-08-25 10:16:57,113 - CRITICAL - imdb_logger - Ready
+2020-08-25 10:17:02,951 - DEBUG    - imdb_logger - users/films GET requested. Url params: {'criteria': 'rated'}
+2020-08-25 10:17:29,675 - CRITICAL - imdb_logger - Ready
+2020-08-25 10:17:34,796 - DEBUG    - imdb_logger - users/films GET requested. Url params: {'criteria': 'rated'}
+2020-08-25 10:18:54,076 - CRITICAL - imdb_logger - Ready
+2020-08-25 10:18:58,480 - DEBUG    - imdb_logger - users/films GET requested. Url params: {'criteria': 'rated'}
+2020-08-25 10:22:04,367 - CRITICAL - imdb_logger - Ready
+2020-08-25 10:22:09,078 - DEBUG    - imdb_logger - users/films/7/rate
+2020-08-25 10:24:30,851 - DEBUG    - imdb_logger - users/films/7/rate
+2020-08-25 10:25:23,622 - DEBUG    - imdb_logger - users/films/7/rate
+2020-08-25 10:25:56,737 - CRITICAL - imdb_logger - Ready
+2020-08-25 10:25:59,844 - DEBUG    - imdb_logger - users/films/7/rate
+2020-08-25 10:27:12,929 - DEBUG    - imdb_logger - users/films GET requested. Url params: {'criteria': 'rated'}
+2020-08-25 10:37:42,702 - CRITICAL - imdb_logger - Ready
+2020-08-25 10:37:49,199 - DEBUG    - imdb_logger - /users/films/7 DELETE requested
+2020-08-25 10:38:51,519 - CRITICAL - imdb_logger - Ready
+2020-08-25 10:38:54,681 - DEBUG    - imdb_logger - /users/films/8 DELETE requested
+2020-08-25 10:47:00,078 - CRITICAL - imdb_logger - Ready
+2020-08-25 10:47:22,006 - DEBUG    - imdb_logger - users/films GET requested. Url params: {'criteria': 'watchlist'}
+2020-08-25 10:47:34,918 - DEBUG    - imdb_logger - users/films GET requested. Url params: {'criteria': 'rated'}
+2020-08-25 10:48:26,638 - DEBUG    - imdb_logger - users/films/7/rate
+2020-08-25 10:48:58,928 - DEBUG    - imdb_logger - users/films/8/rate
+2020-08-26 08:34:27,524 - CRITICAL - imdb_logger - Ready
+2020-08-26 09:10:36,130 - CRITICAL - imdb_logger - Ready
+2020-08-26 09:10:45,246 - DEBUG    - imdb_logger - /films GET requested. Url params: {'filter': 'genre'}
+2020-08-26 09:31:49,360 - CRITICAL - imdb_logger - Ready
+2020-08-26 09:32:05,620 - DEBUG    - imdb_logger - /films GET requested. Url params: {'release_year': '2010'}
+2020-08-26 09:34:58,315 - CRITICAL - imdb_logger - Ready
+2020-08-26 09:35:02,894 - DEBUG    - imdb_logger - /films GET requested. Url params: {'release_year': '2010'}
+2020-08-26 09:35:12,393 - DEBUG    - imdb_logger - /films GET requested. Url params: {'release_year': '2010'}
+2020-08-26 09:44:32,470 - CRITICAL - imdb_logger - Ready
+2020-08-26 09:44:38,823 - DEBUG    - imdb_logger - /films GET requested. Url params: {'release_year': '2010'}
+2020-08-26 09:46:27,215 - CRITICAL - imdb_logger - Ready
+2020-08-26 09:46:30,543 - DEBUG    - imdb_logger - /films GET requested. Url params: {'release_year': '2010'}
+2020-08-26 09:48:52,401 - CRITICAL - imdb_logger - Ready
+2020-08-26 09:48:55,672 - DEBUG    - imdb_logger - /films GET requested. Url params: {'release_year': '2010'}
+2020-08-26 10:01:35,075 - CRITICAL - imdb_logger - Ready
+2020-08-26 10:23:10,673 - DEBUG    - imdb_logger - users/films GET requested. Url params: {'criteria': 'watchlist'}
+2020-08-26 10:24:32,467 - CRITICAL - imdb_logger - Ready
+2020-08-26 10:24:39,258 - DEBUG    - imdb_logger - users/films GET requested. Url params: {'criteria': 'watchlist'}
+2020-08-27 10:01:07,267 - CRITICAL - imdb_logger - Ready
+2020-08-27 10:11:41,406 - CRITICAL - imdb_logger - Ready
+2020-08-27 10:17:17,904 - CRITICAL - imdb_logger - Ready
+2020-08-27 10:18:52,410 - CRITICAL - imdb_logger - Ready
+2020-08-28 08:43:52,613 - CRITICAL - imdb_logger - Ready
+2020-08-28 08:56:58,617 - CRITICAL - imdb_logger - Ready
+2020-08-28 08:57:50,819 - CRITICAL - imdb_logger - Ready
+2020-08-28 08:58:03,032 - DEBUG    - imdb_logger - /contents/films POST requested
+2020-08-28 09:03:21,369 - CRITICAL - imdb_logger - Ready
+2020-08-28 09:03:21,630 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-28 09:03:21,630 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-28 09:03:29,048 - DEBUG    - imdb_logger - /contents/films POST requested
+2020-08-28 10:17:50,141 - CRITICAL - imdb_logger - Ready
+2020-08-28 10:18:14,088 - CRITICAL - imdb_logger - Ready
+2020-08-28 10:18:14,439 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-28 10:18:14,439 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-28 10:21:10,224 - CRITICAL - imdb_logger - Ready
+2020-08-28 10:21:10,635 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-28 10:21:10,636 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-28 10:31:11,443 - CRITICAL - imdb_logger - Ready
+2020-08-28 10:31:11,731 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-28 10:31:11,732 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-28 10:31:12,830 - DEBUG    - imdb_logger - /titles/1 GET requested
+2020-08-28 10:40:57,019 - CRITICAL - imdb_logger - Ready
+2020-08-28 10:41:34,278 - CRITICAL - imdb_logger - Ready
+2020-08-28 10:41:34,491 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-28 10:41:34,491 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-28 10:41:39,388 - DEBUG    - imdb_logger - /titles/1 GET requested
+2020-08-28 10:41:46,825 - DEBUG    - imdb_logger - /titles/1 GET requested
+2020-08-29 10:59:49,900 - CRITICAL - imdb_logger - Ready
+2020-08-29 10:59:50,317 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 10:59:50,317 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 10:59:54,213 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 10:59:58,497 - ERROR    - imdb_logger - Custom Error raised: {'type': ['unknown field']}: 400 - None 
+2020-08-29 11:02:48,962 - CRITICAL - imdb_logger - Ready
+2020-08-29 11:02:49,160 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 11:02:49,160 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 11:02:51,282 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 11:02:53,637 - ERROR    - imdb_logger - Custom Error raised: {'type': ['unallowed value film']}: 400 - None 
+2020-08-29 11:03:03,625 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 11:09:26,339 - CRITICAL - imdb_logger - Ready
+2020-08-29 11:09:26,549 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 11:09:26,549 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 11:10:20,826 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 11:13:47,941 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 11:13:54,541 - CRITICAL - imdb_logger - Ready
+2020-08-29 11:13:54,761 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 11:13:54,761 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 11:14:16,917 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 11:17:48,811 - CRITICAL - imdb_logger - Ready
+2020-08-29 11:17:49,020 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 11:17:49,020 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 11:17:50,163 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 11:22:31,098 - CRITICAL - imdb_logger - Ready
+2020-08-29 11:22:31,326 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 11:22:31,327 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 11:22:34,750 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 11:22:36,580 - ERROR    - imdb_logger - Custom Error raised: {'release_year': ['must be of string type']}: 400 - None 
+2020-08-29 11:22:52,114 - CRITICAL - imdb_logger - Ready
+2020-08-29 11:22:52,332 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 11:22:52,332 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 11:22:53,402 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 11:23:38,659 - CRITICAL - imdb_logger - Ready
+2020-08-29 11:23:38,899 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 11:23:38,900 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 11:23:41,843 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 11:27:00,437 - CRITICAL - imdb_logger - Ready
+2020-08-29 11:27:00,668 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 11:27:00,670 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 11:27:05,990 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 11:27:34,582 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 11:28:09,360 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 11:28:14,419 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 11:28:28,021 - CRITICAL - imdb_logger - Ready
+2020-08-29 11:28:28,246 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 11:28:28,246 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 11:28:29,633 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-29 11:41:21,800 - CRITICAL - imdb_logger - Ready
+2020-08-29 11:41:22,049 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 11:41:22,050 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 12:11:05,001 - CRITICAL - imdb_logger - Ready
+2020-08-29 12:11:05,202 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 12:11:05,202 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 12:11:08,721 - DEBUG    - imdb_logger - /users/login POST requested
+2020-08-29 12:12:14,090 - DEBUG    - imdb_logger - /users/titles/1 POST requested
+2020-08-29 12:41:15,948 - DEBUG    - imdb_logger - /users/titles/1 POST requested
+2020-08-29 12:41:21,484 - CRITICAL - imdb_logger - Ready
+2020-08-29 12:41:21,670 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 12:41:21,670 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 12:41:23,241 - DEBUG    - imdb_logger - /users/titles/1 POST requested
+2020-08-29 12:44:23,117 - CRITICAL - imdb_logger - Ready
+2020-08-29 12:44:23,305 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 12:44:23,305 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 12:44:29,455 - DEBUG    - imdb_logger - /users/titles/1 POST requested
+2020-08-29 12:50:37,413 - CRITICAL - imdb_logger - Ready
+2020-08-29 12:50:37,613 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 12:50:37,613 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 12:50:42,035 - DEBUG    - imdb_logger - /users/titles/1 POST requested
+2020-08-29 12:50:52,132 - DEBUG    - imdb_logger - /users/titles/1 POST requested
+2020-08-29 12:51:47,161 - DEBUG    - imdb_logger - /users/titles/1 POST requested
+2020-08-29 12:53:22,738 - DEBUG    - imdb_logger - /users/titles/1 POST requested
+2020-08-29 12:54:57,886 - CRITICAL - imdb_logger - Ready
+2020-08-29 12:54:58,091 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 12:54:58,092 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 12:55:01,153 - DEBUG    - imdb_logger - /users/titles/1 POST requested
+2020-08-29 12:56:12,899 - CRITICAL - imdb_logger - Ready
+2020-08-29 12:56:13,085 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 12:56:13,086 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 12:56:17,585 - DEBUG    - imdb_logger - /users/titles/1 POST requested
+2020-08-29 16:19:35,094 - CRITICAL - imdb_logger - Ready
+2020-08-29 16:19:35,367 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 16:19:35,367 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 16:19:54,550 - DEBUG    - imdb_logger - /users/titles/1 POST requested
+2020-08-29 16:24:32,892 - DEBUG    - imdb_logger - /users/titles/4 POST requested
+2020-08-29 16:25:35,167 - CRITICAL - imdb_logger - Ready
+2020-08-29 16:25:35,372 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 16:25:35,372 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 16:25:38,528 - DEBUG    - imdb_logger - /users/titles/4 POST requested
+2020-08-29 16:28:26,326 - DEBUG    - imdb_logger - /users/titles/4 POST requested
+2020-08-29 16:32:14,695 - DEBUG    - imdb_logger - /users/titles/2 POST requested
+2020-08-29 16:32:46,330 - DEBUG    - imdb_logger - /users/titles/3 POST requested
+2020-08-29 16:35:30,478 - DEBUG    - imdb_logger - /users/titles/3 POST requested
+2020-08-29 16:41:59,008 - CRITICAL - imdb_logger - Ready
+2020-08-29 16:41:59,282 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 16:41:59,282 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 16:42:00,494 - DEBUG    - imdb_logger - /users/titles/3 POST requested
+2020-08-29 16:58:02,999 - DEBUG    - imdb_logger - /users/titles GET requested
+2020-08-29 16:58:03,009 - ERROR    - imdb_logger - Custom Error raised: {'criteria': ['required field']}: 400 - None 
+2020-08-29 16:59:08,894 - CRITICAL - imdb_logger - Ready
+2020-08-29 16:59:29,827 - CRITICAL - imdb_logger - Ready
+2020-08-29 16:59:30,021 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 16:59:30,021 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 16:59:34,639 - DEBUG    - imdb_logger - /users/titles GET requested
+2020-08-29 17:00:55,546 - CRITICAL - imdb_logger - Ready
+2020-08-29 17:00:55,901 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 17:00:55,903 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 17:01:50,789 - DEBUG    - imdb_logger - /users/titles/2 GET requested
+2020-08-29 17:03:33,795 - CRITICAL - imdb_logger - Ready
+2020-08-29 17:03:33,998 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 17:03:33,998 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 17:03:36,322 - DEBUG    - imdb_logger - /users/titles/2 DELETE requested
+2020-08-29 17:04:22,423 - CRITICAL - imdb_logger - Ready
+2020-08-29 17:04:22,623 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 17:04:22,624 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 17:04:23,643 - DEBUG    - imdb_logger - /users/titles/2 POST requested
+2020-08-29 17:04:31,997 - DEBUG    - imdb_logger - /users/titles/2 DELETE requested
+2020-08-29 17:04:43,396 - DEBUG    - imdb_logger - /users/titles/2 DELETE requested
+2020-08-29 17:04:45,414 - ERROR    - imdb_logger - Custom Error raised: Title 2 is not on users watchlist: 400 - None 
+2020-08-29 17:06:55,740 - CRITICAL - imdb_logger - Ready
+2020-08-29 17:06:55,946 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 17:06:55,946 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 17:06:58,038 - DEBUG    - imdb_logger - /users/titles/2 POST requested
+2020-08-29 17:07:37,144 - DEBUG    - imdb_logger - /users/titles/2 POST requested
+2020-08-29 17:07:42,562 - DEBUG    - imdb_logger - /users/titles/2 DELETE requested
+2020-08-29 17:10:25,212 - CRITICAL - imdb_logger - Ready
+2020-08-29 17:10:25,400 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 17:10:25,400 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 17:10:36,066 - DEBUG    - imdb_logger - /users/titles/2 POST requested
+2020-08-29 17:10:50,231 - DEBUG    - imdb_logger - /users/titles/2 DELETE requested
+2020-08-29 17:11:06,371 - DEBUG    - imdb_logger - /users/titles GET requested
+2020-08-29 17:11:16,422 - DEBUG    - imdb_logger - /users/titles GET requested
+2020-08-29 17:14:29,989 - CRITICAL - imdb_logger - Ready
+2020-08-29 17:14:30,185 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-29 17:14:30,185 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-29 17:14:32,198 - DEBUG    - imdb_logger - /users/titles/4/rate POST requested
+2020-08-29 17:15:08,068 - DEBUG    - imdb_logger - /users/titles GET requested
+2020-08-30 12:47:53,371 - CRITICAL - imdb_logger - Ready
+2020-08-30 12:47:53,710 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-30 12:47:53,710 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-30 12:49:48,084 - CRITICAL - imdb_logger - Ready
+2020-08-30 12:49:48,318 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-30 12:49:48,318 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-30 13:18:10,083 - CRITICAL - imdb_logger - Ready
+2020-08-30 13:18:10,423 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-30 13:18:10,424 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-30 13:18:19,438 - DEBUG    - imdb_logger - /titles/1 GET requested
+2020-08-30 13:18:28,312 - DEBUG    - imdb_logger - /titles/5 GET requested
+2020-08-30 14:00:01,870 - CRITICAL - imdb_logger - Ready
+2020-08-30 14:00:02,166 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-30 14:00:02,166 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-30 14:00:21,004 - CRITICAL - imdb_logger - Ready
+2020-08-30 14:00:21,204 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-30 14:00:21,204 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-30 14:00:30,783 - DEBUG    - imdb_logger - /titles/5 GET requested
+2020-08-30 14:01:31,194 - CRITICAL - imdb_logger - Ready
+2020-08-30 14:01:31,383 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-30 14:01:31,383 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-30 14:01:33,415 - DEBUG    - imdb_logger - /titles/5 GET requested
+2020-08-30 14:02:28,653 - CRITICAL - imdb_logger - Ready
+2020-08-30 14:02:28,879 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-30 14:02:28,879 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-30 14:02:28,933 - DEBUG    - imdb_logger - /titles/5 GET requested
+2020-08-30 14:02:47,584 - CRITICAL - imdb_logger - Ready
+2020-08-30 14:02:47,778 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-30 14:02:47,778 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-30 14:02:48,952 - DEBUG    - imdb_logger - /titles/5 GET requested
+2020-08-30 14:03:07,805 - DEBUG    - imdb_logger - /titles/3 GET requested
+2020-08-30 14:03:49,163 - CRITICAL - imdb_logger - Ready
+2020-08-30 14:03:49,353 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-30 14:03:49,353 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-30 14:03:51,053 - DEBUG    - imdb_logger - /titles/3 GET requested
+2020-08-30 14:06:17,144 - CRITICAL - imdb_logger - Ready
+2020-08-30 14:06:17,351 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-30 14:06:17,351 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-30 14:06:18,248 - DEBUG    - imdb_logger - /titles/1 GET requested
+2020-08-31 08:17:12,106 - CRITICAL - imdb_logger - Ready
+2020-08-31 08:17:12,403 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 08:17:12,403 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 08:18:26,005 - DEBUG    - imdb_logger - /titles/5 GET requested
+2020-08-31 08:24:09,855 - CRITICAL - imdb_logger - Ready
+2020-08-31 08:24:10,068 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 08:24:10,068 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 08:25:18,853 - DEBUG    - imdb_logger - /titles/5 GET requested
+2020-08-31 08:25:27,325 - DEBUG    - imdb_logger - /titles/5 GET requested
+2020-08-31 08:33:48,482 - CRITICAL - imdb_logger - Ready
+2020-08-31 08:33:48,673 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 08:33:48,673 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 08:33:52,230 - DEBUG    - imdb_logger - /titles/5 GET requested
+2020-08-31 08:35:18,970 - CRITICAL - imdb_logger - Ready
+2020-08-31 08:35:19,160 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 08:35:19,160 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 08:35:23,091 - DEBUG    - imdb_logger - /titles/5 GET requested
+2020-08-31 08:35:34,335 - DEBUG    - imdb_logger - /titles/3 GET requested
+2020-08-31 08:35:49,944 - CRITICAL - imdb_logger - Ready
+2020-08-31 08:35:50,132 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 08:35:50,132 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 08:35:51,603 - DEBUG    - imdb_logger - /titles/3 GET requested
+2020-08-31 09:21:34,412 - CRITICAL - imdb_logger - Ready
+2020-08-31 09:21:34,647 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 09:21:34,647 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 09:21:36,772 - DEBUG    - imdb_logger - /users/titles GET requested
+2020-08-31 09:27:34,200 - CRITICAL - imdb_logger - Ready
+2020-08-31 09:27:34,395 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 09:27:34,395 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 09:27:46,894 - DEBUG    - imdb_logger - /titles/5 GET requested
+2020-08-31 09:28:52,404 - CRITICAL - imdb_logger - Ready
+2020-08-31 09:28:52,608 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 09:28:52,608 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 09:28:55,113 - DEBUG    - imdb_logger - /titles/5 GET requested
+2020-08-31 09:29:19,178 - DEBUG    - imdb_logger - /titles/1 GET requested
+2020-08-31 09:32:14,808 - CRITICAL - imdb_logger - Ready
+2020-08-31 09:32:15,022 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 09:32:15,022 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 09:32:19,345 - DEBUG    - imdb_logger - /titles/5 GET requested
+2020-08-31 09:40:58,008 - CRITICAL - imdb_logger - Ready
+2020-08-31 09:40:58,194 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 09:40:58,195 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 09:41:08,715 - DEBUG    - imdb_logger - /users/titles GET requested
+2020-08-31 09:42:06,355 - CRITICAL - imdb_logger - Ready
+2020-08-31 09:42:06,547 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 09:42:06,547 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 09:42:13,457 - DEBUG    - imdb_logger - /users/titles GET requested
+2020-08-31 09:43:18,007 - CRITICAL - imdb_logger - Ready
+2020-08-31 09:43:18,199 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 09:43:18,199 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 09:43:30,483 - DEBUG    - imdb_logger - /users/titles GET requested
+2020-08-31 09:49:34,159 - CRITICAL - imdb_logger - Ready
+2020-08-31 09:49:34,343 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 09:49:34,343 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 09:49:38,619 - DEBUG    - imdb_logger - /users/titles GET requested
+2020-08-31 09:58:58,191 - DEBUG    - imdb_logger - /users/titles GET requested
+2020-08-31 09:59:04,023 - CRITICAL - imdb_logger - Ready
+2020-08-31 09:59:04,219 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 09:59:04,219 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 09:59:06,376 - DEBUG    - imdb_logger - /users/titles GET requested
+2020-08-31 09:59:36,333 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-31 09:59:49,887 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-31 10:00:12,693 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-31 10:03:28,191 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-31 10:03:46,403 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-31 10:04:44,908 - DEBUG    - imdb_logger - /titles/3 GET requested
+2020-08-31 10:05:33,310 - DEBUG    - imdb_logger - /titles/6 GET requested
+2020-08-31 10:06:19,672 - CRITICAL - imdb_logger - Ready
+2020-08-31 10:06:19,871 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 10:06:19,871 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 10:06:22,011 - DEBUG    - imdb_logger - /titles/6 GET requested
+2020-08-31 10:06:28,129 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-31 10:09:06,189 - CRITICAL - imdb_logger - Ready
+2020-08-31 10:09:06,394 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 10:09:06,394 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 10:09:09,356 - DEBUG    - imdb_logger - /titles/6 GET requested
+2020-08-31 10:09:23,950 - DEBUG    - imdb_logger - /titles/4 GET requested
+2020-08-31 10:10:58,543 - CRITICAL - imdb_logger - Ready
+2020-08-31 10:10:58,741 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 10:10:58,742 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 10:11:04,371 - DEBUG    - imdb_logger - /titles/6 GET requested
+2020-08-31 10:12:41,945 - CRITICAL - imdb_logger - Ready
+2020-08-31 10:12:42,296 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 10:12:42,296 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 10:12:44,730 - DEBUG    - imdb_logger - /titles/6 GET requested
+2020-08-31 10:14:47,196 - CRITICAL - imdb_logger - Ready
+2020-08-31 10:14:47,398 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 10:14:47,398 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 10:14:48,943 - DEBUG    - imdb_logger - /titles/6 GET requested
+2020-08-31 10:15:17,545 - DEBUG    - imdb_logger - /titles/3 GET requested
+2020-08-31 10:16:40,075 - DEBUG    - imdb_logger - /titles/3 GET requested
+2020-08-31 10:20:05,116 - CRITICAL - imdb_logger - Ready
+2020-08-31 10:20:05,364 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 10:20:05,364 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 10:20:09,644 - DEBUG    - imdb_logger - /titles GET requested
+2020-08-31 10:20:32,355 - DEBUG    - imdb_logger - /titles/3 GET requested
+2020-08-31 10:21:19,326 - DEBUG    - imdb_logger - /titles/3 GET requested
+2020-08-31 10:21:42,904 - CRITICAL - imdb_logger - Ready
+2020-08-31 10:21:43,109 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 10:21:43,109 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 10:21:45,307 - DEBUG    - imdb_logger - /titles/3 GET requested
+2020-08-31 10:25:55,988 - CRITICAL - imdb_logger - Ready
+2020-08-31 10:25:56,205 - CRITICAL - imdb_logger - Starting imdb_api
+2020-08-31 10:25:56,206 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-08-31 10:25:57,766 - DEBUG    - imdb_logger - /titles/3 GET requested
+2020-08-31 10:26:19,580 - DEBUG    - imdb_logger - /titles/3 GET requested
+2020-09-01 09:43:26,214 - CRITICAL - imdb_logger - Ready
+2020-09-01 09:43:26,700 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 09:43:26,700 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 09:43:49,807 - DEBUG    - imdb_logger - /users/login POST requested
+2020-09-01 09:44:28,995 - DEBUG    - imdb_logger - /lists POST requested
+2020-09-01 09:45:40,820 - DEBUG    - imdb_logger - /lists POST requested
+2020-09-01 09:47:24,242 - DEBUG    - imdb_logger - /lists POST requested
+2020-09-01 09:49:52,286 - CRITICAL - imdb_logger - Ready
+2020-09-01 09:49:52,494 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 09:49:52,494 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 09:49:56,809 - DEBUG    - imdb_logger - /lists POST requested
+2020-09-01 09:50:47,622 - CRITICAL - imdb_logger - Ready
+2020-09-01 09:50:47,813 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 09:50:47,813 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 09:50:51,071 - DEBUG    - imdb_logger - /lists POST requested
+2020-09-01 09:53:31,000 - DEBUG    - imdb_logger - /lists POST requested
+2020-09-01 09:57:07,608 - CRITICAL - imdb_logger - Ready
+2020-09-01 09:57:07,803 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 09:57:07,803 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 09:57:17,465 - DEBUG    - imdb_logger - /lists POST requested
+2020-09-01 09:58:15,392 - CRITICAL - imdb_logger - Ready
+2020-09-01 09:58:15,579 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 09:58:15,579 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 09:58:20,259 - DEBUG    - imdb_logger - /lists POST requested
+2020-09-01 09:59:10,957 - DEBUG    - imdb_logger - /lists/1/titles/4 POST requested
+2020-09-01 09:59:44,614 - DEBUG    - imdb_logger - /lists/1 GET requested
+2020-09-01 09:59:49,006 - DEBUG    - imdb_logger - /lists/1 GET requested
+2020-09-01 10:00:14,637 - DEBUG    - imdb_logger - /lists/1/titles/4 POST requested
+2020-09-01 10:02:03,269 - DEBUG    - imdb_logger - /lists/1/titles/4 DELETE requested
+2020-09-01 10:02:10,264 - DEBUG    - imdb_logger - /lists/1/titles/4 POST requested
+2020-09-01 10:02:16,059 - DEBUG    - imdb_logger - /lists/1/titles/1 POST requested
+2020-09-01 10:04:29,707 - DEBUG    - imdb_logger - /lists/3 DELETE requested
+2020-09-01 10:04:54,397 - DEBUG    - imdb_logger - /lists/3 DELETE requested
+2020-09-01 10:05:27,778 - CRITICAL - imdb_logger - Ready
+2020-09-01 10:05:27,960 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 10:05:27,961 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 10:05:29,305 - DEBUG    - imdb_logger - /lists/3 DELETE requested
+2020-09-01 10:05:40,415 - DEBUG    - imdb_logger - /lists/3 DELETE requested
+2020-09-01 10:07:31,870 - DEBUG    - imdb_logger - /lists/3 DELETE requested
+2020-09-01 10:07:40,688 - DEBUG    - imdb_logger - /lists/3 DELETE requested
+2020-09-01 10:07:57,623 - CRITICAL - imdb_logger - Ready
+2020-09-01 10:07:57,817 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 10:07:57,817 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 10:07:59,113 - DEBUG    - imdb_logger - /lists/3 DELETE requested
+2020-09-01 10:08:00,714 - ERROR    - imdb_logger - Custom Error raised: The user can't operate this list: 401 - None 
+2020-09-01 10:08:07,839 - DEBUG    - imdb_logger - /lists/3 DELETE requested
+2020-09-01 10:08:18,925 - DEBUG    - imdb_logger - /lists/5 DELETE requested
+2020-09-01 10:08:33,375 - ERROR    - imdb_logger - Custom Error raised: The user can't operate this list: 401 - None 
+2020-09-01 10:09:10,471 - CRITICAL - imdb_logger - Ready
+2020-09-01 10:09:10,664 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 10:09:10,664 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 10:09:12,095 - DEBUG    - imdb_logger - /lists/6 DELETE requested
+2020-09-01 10:10:24,080 - DEBUG    - imdb_logger - /users/lists GET requested
+2020-09-01 10:10:33,938 - DEBUG    - imdb_logger - /users/lists GET requested
+2020-09-01 10:13:40,747 - CRITICAL - imdb_logger - Ready
+2020-09-01 10:13:40,939 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 10:13:40,939 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 10:13:43,368 - DEBUG    - imdb_logger - /users/lists GET requested
+2020-09-01 10:17:03,242 - CRITICAL - imdb_logger - Ready
+2020-09-01 10:17:03,432 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 10:17:03,433 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 10:17:09,866 - DEBUG    - imdb_logger - /users/lists GET requested
+2020-09-01 10:17:48,859 - CRITICAL - imdb_logger - Ready
+2020-09-01 10:17:49,044 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 10:17:49,044 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 10:17:51,395 - DEBUG    - imdb_logger - /users/lists GET requested
+2020-09-01 10:31:19,863 - DEBUG    - imdb_logger - /users/lists GET requested
+2020-09-01 10:32:43,042 - CRITICAL - imdb_logger - Ready
+2020-09-01 10:32:43,232 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 10:32:43,232 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 10:32:47,505 - DEBUG    - imdb_logger - /users/lists GET requested
+2020-09-01 10:33:03,383 - DEBUG    - imdb_logger - /lists/1 GET requested
+2020-09-01 10:35:21,566 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-01 10:35:39,686 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-01 10:37:00,872 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-01 10:37:02,125 - ERROR    - imdb_logger - Custom Error raised: {'sort': ['unallowed value metascore'], 'type': ['unallowed value list']}: 400 - None 
+2020-09-01 10:37:12,520 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-01 10:37:13,789 - ERROR    - imdb_logger - Custom Error raised: {'sort': ['unallowed value metascore']}: 400 - None 
+2020-09-01 10:37:35,007 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-01 10:37:55,062 - ERROR    - imdb_logger - Custom Error raised: {'sort': ['unallowed value metascore']}: 400 - None 
+2020-09-01 10:38:52,871 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-01 10:39:34,952 - ERROR    - imdb_logger - Custom Error raised: {'sort': ['unallowed value metascore']}: 400 - None 
+2020-09-01 10:40:31,230 - CRITICAL - imdb_logger - Ready
+2020-09-01 10:40:31,498 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 10:40:31,499 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 10:40:32,757 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-01 10:40:39,278 - ERROR    - imdb_logger - Custom Error raised: {'sort': ['unallowed value metas']}: 400 - None 
+2020-09-01 10:41:20,138 - CRITICAL - imdb_logger - Ready
+2020-09-01 10:41:20,324 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 10:41:20,324 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 10:41:21,406 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-01 10:41:30,939 - ERROR    - imdb_logger - Custom Error raised: {'sort': ['unallowed value metascore']}: 400 - None 
+2020-09-01 10:41:56,689 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-01 10:42:36,818 - CRITICAL - imdb_logger - Ready
+2020-09-01 10:42:37,014 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 10:42:37,014 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 10:42:39,540 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-01 10:42:42,160 - ERROR    - imdb_logger - Custom Error raised: {'sort': ['unallowed value metascore']}: 400 - None 
+2020-09-01 10:43:32,682 - CRITICAL - imdb_logger - Ready
+2020-09-01 10:43:32,879 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 10:43:32,880 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 10:43:37,506 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-01 10:43:42,317 - ERROR    - imdb_logger - Custom Error raised: {'sort': ['unallowed value bole']}: 400 - None 
+2020-09-01 10:45:50,575 - CRITICAL - imdb_logger - Ready
+2020-09-01 10:45:50,799 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-01 10:45:50,799 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-01 10:45:54,201 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-01 10:46:08,045 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-02 08:39:36,862 - CRITICAL - imdb_logger - Ready
+2020-09-02 08:39:37,250 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-02 08:39:37,250 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-02 08:39:50,062 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-02 08:50:54,039 - CRITICAL - imdb_logger - Ready
+2020-09-02 08:50:54,262 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-02 08:50:54,263 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-02 08:50:55,691 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-02 08:51:27,982 - CRITICAL - imdb_logger - Ready
+2020-09-02 08:51:28,164 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-02 08:51:28,165 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-02 08:51:30,985 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-02 08:52:38,367 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-02 08:56:51,838 - CRITICAL - imdb_logger - Ready
+2020-09-02 08:56:52,033 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-02 08:56:52,033 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-02 08:56:54,735 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-02 08:59:01,031 - CRITICAL - imdb_logger - Ready
+2020-09-02 08:59:01,228 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-02 08:59:01,228 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-02 08:59:04,305 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-02 08:59:46,055 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-02 09:00:13,017 - DEBUG    - imdb_logger - /titles GET requested
+2020-09-02 09:07:08,561 - DEBUG    - imdb_logger - /users/titles GET requested
+2020-09-05 10:32:22,228 - CRITICAL - imdb_logger - Ready
+2020-09-05 10:32:22,573 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-05 10:32:22,573 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-05 10:33:46,599 - DEBUG    - imdb_logger - /users/login POST requested
+2020-09-05 10:35:30,907 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 10:36:26,516 - CRITICAL - imdb_logger - Ready
+2020-09-05 10:36:26,711 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-05 10:36:26,712 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-05 10:36:30,970 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 10:37:42,307 - CRITICAL - imdb_logger - Ready
+2020-09-05 10:37:42,498 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-05 10:37:42,498 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-05 10:37:44,028 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 10:37:46,712 - ERROR    - imdb_logger - Custom Error raised: {'cvv': ['max value is 5']}: 400 - None 
+2020-09-05 10:38:39,528 - CRITICAL - imdb_logger - Ready
+2020-09-05 10:38:39,710 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-05 10:38:39,710 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-05 10:38:41,172 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 10:38:55,455 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 10:41:44,052 - CRITICAL - imdb_logger - Ready
+2020-09-05 10:41:44,239 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-05 10:41:44,240 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-05 10:41:48,295 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 10:42:00,922 - ERROR    - imdb_logger - Custom Error raised: {'method': ['none or more than one rule validate', {'oneof definition 0': ["'paypal_account' must not be present with 'method'"], 'oneof definition 1': ['unallowed value credit_card', "'cc_number', 'cvv', 'cc_holder' must not be present with 'method'"]}]}: 400 - None 
+2020-09-05 10:43:21,795 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 10:48:15,572 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 10:49:25,269 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 10:50:16,455 - CRITICAL - imdb_logger - Ready
+2020-09-05 10:50:16,637 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-05 10:50:16,638 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-05 10:50:17,873 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 10:52:36,715 - CRITICAL - imdb_logger - Ready
+2020-09-05 10:52:36,930 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-05 10:52:36,930 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-05 10:52:38,413 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 10:57:08,414 - CRITICAL - imdb_logger - Ready
+2020-09-05 10:57:08,596 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-05 10:57:08,596 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-05 10:57:13,530 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 10:59:27,951 - CRITICAL - imdb_logger - Ready
+2020-09-05 10:59:28,143 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-05 10:59:28,144 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-05 10:59:37,868 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 10:59:54,905 - ERROR    - imdb_logger - Custom Error raised: The payment couldn't be processed: 500 - None 
+2020-09-05 11:09:02,609 - CRITICAL - imdb_logger - Ready
+2020-09-05 11:09:02,792 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-05 11:09:02,792 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-05 11:14:22,494 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:14:43,243 - ERROR    - imdb_logger - Custom Error raised: The payment couldn't be processed: 500 - None 
+2020-09-05 11:15:55,104 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:16:09,884 - ERROR    - imdb_logger - Custom Error raised: The payment couldn't be processed: 500 - None 
+2020-09-05 11:17:45,756 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:18:25,496 - ERROR    - imdb_logger - Custom Error raised: The payment couldn't be processed: 500 - None 
+2020-09-05 11:22:29,647 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:23:55,565 - ERROR    - imdb_logger - Custom Error raised: The payment couldn't be processed: 500 - None 
+2020-09-05 11:23:57,458 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:24:53,465 - ERROR    - imdb_logger - Custom Error raised: The payment couldn't be processed: 500 - None 
+2020-09-05 11:25:34,769 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:26:17,483 - ERROR    - imdb_logger - Custom Error raised: The payment couldn't be processed: 500 - None 
+2020-09-05 11:26:21,738 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:33:54,991 - ERROR    - imdb_logger - Custom Error raised: The payment couldn't be processed: 500 - None 
+2020-09-05 11:33:57,605 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:38:50,594 - ERROR    - imdb_logger - Custom Error raised: The payment couldn't be processed: 500 - None 
+2020-09-05 11:38:55,145 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:40:32,188 - CRITICAL - imdb_logger - Ready
+2020-09-05 11:40:32,375 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-05 11:40:32,376 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-05 11:40:34,640 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:42:08,326 - ERROR    - imdb_logger - Custom Error raised: The payment couldn't be processed: 500 - None 
+2020-09-05 11:42:15,123 - DEBUG    - imdb_logger - /titles/3 GET requested
+2020-09-05 11:43:16,728 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:43:29,656 - ERROR    - imdb_logger - Custom Error raised: The payment couldn't be processed: 500 - None 
+2020-09-05 11:44:02,718 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:44:27,366 - ERROR    - imdb_logger - Custom Error raised: The payment couldn't be processed: 500 - None 
+2020-09-05 11:45:03,415 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:46:37,230 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:46:50,303 - ERROR    - imdb_logger - Custom Error raised: Error when trying to connect to Kafka Server: 500 - None 
+2020-09-05 11:47:08,200 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:47:57,798 - ERROR    - imdb_logger - Custom Error raised: Error when trying to connect to Kafka Server: 500 - None 
+2020-09-05 11:51:06,014 - CRITICAL - imdb_logger - Ready
+2020-09-05 11:51:06,208 - CRITICAL - imdb_logger - Starting imdb_api
+2020-09-05 11:51:06,208 - CRITICAL - imdb_logger - Imdb api listening at port 8899
+2020-09-05 11:51:10,007 - DEBUG    - imdb_logger - /users/titles/1/buy POST requested
+2020-09-05 11:51:36,502 - ERROR    - imdb_logger - Custom Error raised: Error when trying to connect to Kafka Server: 500 - None 

@@ -1,65 +1,70 @@
 from app import app, create_app
-from config.loader import load_from_file
+from config.config import Config
 from config.logger import configure_logging, get_app_logger
 from exceptions.errors import CustomError
 import json
 from flask import Response, request, redirect
 import logging
 from flask_restful import Api
-from resources.film_resources import FilmResource, FilmsResource
-from resources.show_resources import ShowResource, ShowsResource
-from resources.watchlist_resources import WatchlistFilmResource, WatchlistResource, WatchlistShowResource
-from resources.list_resources import ListFilmResource, ListResource, ListShowResource
-from resources.user_resources import RegistrationResource
+from resources.list_resources import ListTitleResource, ListResource
+from resources.user_resources import (
+    UserResource,
+    UserTitlesResource,
+    UserLoginResource,
+    UserListsResource,
+    UserTitleRateResource,
+    UserTitleBuyResource,
+)
+from resources.title_resources import TitlesResource, TitleResource
 
-STAGE = "/ini/stage.ini"
-PROD = "/ini/prod.ini"
-TEST = "/ini/test.ini"
+STAGE = "ini/stage.ini"
+PROD = "ini/prod.ini"
+TEST = "ini/test.ini"
 
 
 def run(standalone=False, config_file=STAGE):
-    # Reading arguments
-    cl_args = load_from_file(config_file)
+    # Storing configs
+    Config.load_from_file(config_file)
 
     # Configure logger
-    logger = configure_logging(cl_args)
+    logger = configure_logging()
     logger.critical("Ready")
 
-    create_app.create(cl_args.db_string)
+    create_app.create(Config.app.db_string, Config.app.jwt_secret_key)
 
-    return flask_app(standalone, cl_args.port, cl_args.protocol)
+    return flask_app(standalone, Config.app.port)
 
 
-def flask_app(standalone, port, protocol):
+def flask_app(standalone, port):
 
     fl_logger = get_app_logger()
-    app.config['JSON_SORT_KEYS'] = False
 
     api = Api(app, errors=CustomError)
 
     # Load resources
-    api.add_resource(FilmsResource, '/films')
-    api.add_resource(FilmResource, '/films/<int:film_id>')
-    api.add_resource(ShowsResource, '/shows')
-    api.add_resource(ShowResource, '/shows/<int:show_id>')
-    api.add_resource(WatchlistResource, '/watchlists/<int:watchlist_id>', '/watchlists')
-    api.add_resource(WatchlistShowResource, '/watchlists/<int:watchlist_id>/shows/<int:show_id>')
-    api.add_resource(WatchlistFilmResource, '/watchlists/<int:watchlist_id>/films/<int:film_id>')
-    api.add_resource(ListResource, '/lists', '/lists/<int:list_id>')
-    api.add_resource(ListShowResource, '/lists/<int:list_id>/shows/<int:show_id>')
-    api.add_resource(ListFilmResource, '/lists/<int:list_id>/films/<int:film_id>')
-    api.add_resource(RegistrationResource, '/users')
+    api.add_resource(TitleResource, "/titles/<int:title_id>", endpoint="title_resource")
+    api.add_resource(TitlesResource, "/titles")
+    api.add_resource(ListResource, "/lists", "/lists/<int:list_id>")
+    api.add_resource(ListTitleResource, "/lists/<int:list_id>/titles/<int:title_id>")
+    api.add_resource(UserResource, "/users", "/users/<int:user_id>")
+    api.add_resource(UserLoginResource, "/users/login")
+    api.add_resource(
+        UserTitlesResource, "/users/titles", "/users/titles/<int:title_id>"
+    )
+    api.add_resource(UserTitleRateResource, "/users/titles/<int:title_id>/rate")
+    api.add_resource(UserTitleBuyResource, "/users/titles/<int:title_id>/buy")
+    api.add_resource(UserListsResource, "/users/lists")
 
     @app.errorhandler(CustomError)
     def handle_custom_error(error):
         """Catch CustomError exception globally, serialize into JSON, and respond with specified status."""
         payload = dict(error.payload or ())
-        payload['status'] = error.status
-        payload['message'] = error.message
+        payload["status"] = error.status
+        payload["message"] = error.message
         response = Response(
             response=json.dumps(payload),
             status=error.status,
-            mimetype='application/json'
+            mimetype="application/json",
         )
         return response
 
@@ -67,30 +72,18 @@ def flask_app(standalone, port, protocol):
     def handle_bad_request(error):
         raise CustomError(error.description, 400)
 
-    # Redirect functions
-    """if protocol == "https":
-        @app.before_request
-        def redirect_to_ssl():
-            criteria = [
-                request.is_secure,
-                request.headers.get('X-Forwarded-Proto', 'http') == 'https'
-            ]
-
-            if not any(criteria):
-                if request.url.startswith('http://'):
-                    url = request.url.replace('http://', 'https://', 1)
-                    code = 302
-                    r = redirect(url, code=code)
-                    return r"""
+    @app.before_request
+    def log_request():
+        fl_logger.debug(f"{request.path} {request.method} requested")
 
     fl_logger.critical("Starting imdb_api")
-    fl_logger.critical(f'Imdb api listening at port {port}')
+    fl_logger.critical(f"Imdb api listening at port {port}")
 
     # Run or return the app
     if standalone:
         try:
-            app.run(host='0.0.0.0', port=port)
-        except(KeyboardInterrupt, EOFError, SystemExit):
+            app.run(host="0.0.0.0", port=port)
+        except (KeyboardInterrupt, EOFError, SystemExit):
             fl_logger.critical("\n\n\t --> Quitting!\n\n")
             quit()
     else:
