@@ -2,8 +2,8 @@ from entities.list import List
 from app import db
 
 
-def get_lists_by_user(username):
-    return List.query.filter_by(username=username).first()
+def get_lists_by_user(user_id):
+    return List.query.filter_by(user_id=user_id).all()
 
 
 def get_list_by_id(list_id):
@@ -21,23 +21,13 @@ def delete_list(list):
     db.session.commit()
 
 
-def add_film(list, film):
-    list.films.append(film)
+def add_title(list, title):
+    list.titles.append(title)
+    db.session.commit()
     return list
 
 
-def add_show(list, show):
-    list.shows.append(show)
+def remove_title(list, title):
+    list.titles.remove(title)
+    db.session.commit()
     return list
-
-
-def remove_film(list, film):
-    list.films.delete(film)
-    return list
-
-
-def remove_show(list, show):
-    list.shows.delete(show)
-    return list
-
-

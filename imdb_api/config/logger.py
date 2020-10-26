@@ -1,36 +1,39 @@
 import logging
 import os
 from pathlib import Path
+from flask import request
+from config.config import Config
 
 
-def configure_logging(cl_args):
+def configure_logging():
     """
     Configures logging
-    :param cl_args: environment values needed to configure logger
     :return: configured logger
     """
     # Create logger
     logger = logging.getLogger("imdb_logger")
     logger.propagate = False
-    logger.setLevel(level=cl_args.log_level)
+    logger.setLevel(level=Config.app.log_level)
 
     # Create handlers
     ch = logging.StreamHandler()
-    if cl_args.log_file is not None:
-        fh = logging.FileHandler(filename=cl_args.log_file)
+    if Config.app.log_file is not None:
+        fh = logging.FileHandler(filename=Config.app.log_file)
 
     # Format output
-    formatter = logging.Formatter('%(asctime)s - %(levelname)-8s - %(name)s - %(message)s')
+    formatter = logging.Formatter(
+        "%(asctime)s - %(levelname)-8s - %(name)s - %(message)s"
+    )
     ch.setFormatter(formatter)
-    if cl_args.log_file is not None:
+    if Config.app.log_file is not None:
         fh.setFormatter(formatter)
 
     # Add handlers to logger
     logger.addHandler(ch)
-    if cl_args.log_file is not None:
+    if Config.app.log_file is not None:
         logger.addHandler(fh)
     return logger
 
 
 def get_app_logger():
-    return logging.getLogger("App.Flask")
+    return logging.getLogger("imdb_logger")
