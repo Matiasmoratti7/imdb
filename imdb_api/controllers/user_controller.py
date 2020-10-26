@@ -74,11 +74,11 @@ def buy_title(title, username, data):
         user = get_user_by_username(username)
         user_model.buy_title(title, user)
         email_service.send_email_to_owner(
-            "New sale", f"The customer {username} bought {title.name}"
+            "New sale", f"The customer {username} bought {title.name}", Config.app.owner_email
         )
         email_service.send_email_to_customer(
             "IMDB - Title purchase confirmation",
-            f"Congratulations! " f"You have bought {title.name}",
+            f"Congratulations! " f"You have bought {title.name}", data.get("email")
         )
     else:
         raise CustomError("The payment couldn't be processed", 500)

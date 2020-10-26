@@ -91,6 +91,10 @@ def validate_title_search(data):
     return validate(data, TITLE_SEARCH)
 
 
+def validate_title_search_v2(data):
+    pass
+
+
 def validate_rate(data):
     if "rate" in data:
         try:
@@ -100,3 +104,6 @@ def validate_rate(data):
         data["rate"] = value
 
     validate(data, USER_RATE)
+
+
+

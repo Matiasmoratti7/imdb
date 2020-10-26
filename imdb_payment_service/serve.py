@@ -5,6 +5,8 @@ from exceptions.errors import CustomError
 import json
 from flask import Response, request, redirect
 import logging
+from endpoints import payment
+
 
 STAGE = "ini/stage.ini"
 PROD = "ini/prod.ini"

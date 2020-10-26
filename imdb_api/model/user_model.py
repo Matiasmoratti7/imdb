@@ -63,7 +63,7 @@ def rate_title(title, user, rate):
 
 
 def remove_title(user, title):
-    ut = UserTitle.query.filter_by(title_id=title.id).filter_by(user_id=user.id).first()
+    ut = UserTitle.query.filter_by(title_id=title.id).filter_by(user_id=user.id).get()
     if not ut or not ut.on_watchlist:
         raise CustomError(f"Title {title.id} is not on users watchlist", 400)
 

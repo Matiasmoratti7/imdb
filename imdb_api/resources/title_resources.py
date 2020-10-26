@@ -4,6 +4,11 @@ from flask import Response, request
 from controllers import title_controller
 from schemas import title_schema
 from validators import validator
+from schemas.title_schema import SimplifiedTitleSchema
+from entities.title import Title
+from flask_filter import query_with_filters
+
+simplified_title_schema = SimplifiedTitleSchema()
 
 
 class TitleResource(Resource):
@@ -37,3 +42,23 @@ class TitlesResource(Resource):
             response=json.dumps(titles_dto), status=200, mimetype="application/json"
         )
         return response
+
+
+class TitlesV2Resource(Resource):
+    def get(self):
+        """Returns a list of titles based on url params
+            URL example: imdb/titles?filters=[{'field': 'field_name', 'op': 'operation', 'value': 'field_value'}]
+        """
+        args = request.args.to_dict()
+        validator.validate_title_search_v2(args)
+
+        titles = query_with_filters(Title, args.get("filters"), SimplifiedTitleSchema)
+
+        if not titles:
+            return "", 404
+
+        response = Response(
+            response=json.dumps(titles), status=200, mimetype="application/json"
+        )
+        return response
+

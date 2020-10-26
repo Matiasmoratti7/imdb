@@ -28,7 +28,7 @@ def run(standalone=False, config_file=STAGE):
 
     # Configure logger
     logger = configure_logging()
-    logger.critical("Ready")
+    logger.info("Ready")
 
     create_app.create(Config.app.db_string, Config.app.jwt_secret_key)
 
@@ -76,8 +76,8 @@ def flask_app(standalone, port):
     def log_request():
         fl_logger.debug(f"{request.path} {request.method} requested")
 
-    fl_logger.critical("Starting imdb_api")
-    fl_logger.critical(f"Imdb api listening at port {port}")
+    fl_logger.info("Starting imdb_api")
+    fl_logger.info(f"Imdb api listening at port {port}")
 
     # Run or return the app
     if standalone:

@@ -10,14 +10,14 @@ services:
 
   db:
     environment:
-      POSTGRES_USER: imdb
-      POSTGRES_PASSWORD: imdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
       POSTGRES_DB: imdb
     image: postgres_imdb
     ports:
       - "5432:5432"
     volumes:
-      - postgres-data:/var/lib/postgresql/data
+      - imdb-data:/var/lib/postgresql/data
 
   imdb_payment_service:
     image: imdb_payment_service
@@ -51,4 +51,4 @@ services:
       - KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1
 
 volumes:
-  postgres-data:
+  imdb-data:

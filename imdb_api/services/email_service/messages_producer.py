@@ -18,7 +18,7 @@ class MessagesProducer(object):
                 )
             except Exception:
                 raise CustomError("Error when trying to connect to Kafka Server", 500)
-        return KafkaProducer.producer
+        return MessagesProducer.producer
 
     @staticmethod
     def send_message(json_message, topic):

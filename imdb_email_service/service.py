@@ -47,7 +47,7 @@ def send_email(server, subject, body, receiver):
                 logger.critical("Max attempts to send an email reached. Email service stopping...")
                 sys.exit()
             else:
-                logger.critical(f'The service will retry in {str(Config.configs.global_sleep_time)} seconds')
+                logger.info(f'The service will retry in {str(Config.configs.global_sleep_time)} seconds')
                 time.sleep(Config.configs.global_sleep_time)
                 attempts += 1
 
@@ -65,17 +65,17 @@ def run(config_file):
     email_server = set_email_server()
 
     # Send emails
-    logger.critical("Email service starting...")
+    logger.info("Email service starting...")
     messages = []
     while True:
-        logger.critical("Email service is getting messages from Kafka server")
+        logger.info("Email service is getting messages from Kafka server")
         messages.extend(MessagesConsumer.consume_messages())
-        logger.critical("Email service will process {} messages".format(len(messages)))
+        logger.info("Email service will process {} messages".format(len(messages)))
         while messages:
             msg = messages.pop()
             if validator.validate(msg, validator.MESSAGE):
                 send_email(email_server, msg['subject'], msg['body'], msg['receiver'])
-        logger.critical("Email service finished processing new messages")
+        logger.info("Email service finished processing new messages")
         time.sleep(Config.configs.global_sleep_time)
 
 

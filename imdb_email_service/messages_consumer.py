@@ -25,12 +25,10 @@ class MessagesConsumer(object):
         logger = get_app_logger()
 
         messages = []
-        consumer_connected = False
         attempts = 0
-        while not consumer_connected:
+        while True:
             try:
                 kafka_consumer = MessagesConsumer.get_kafka_consumer()
-                consumer_connected = True
             except Exception as e:
                 logger.critical(f'Error when trying to connect to Kafka Server: {e}')
                 if attempts == Config.configs.max_attempts_kafka_server:
@@ -40,6 +38,8 @@ class MessagesConsumer(object):
                     logger.critical(f'The service will retry in {str(Config.configs.global_sleep_time)} seconds')
                     time.sleep(Config.configs.global_sleep_time)
                     attempts += 1
+            else:
+                break
 
         for msg in kafka_consumer:
             try:
